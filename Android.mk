@@ -44,11 +44,11 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.recyclerview
 
 LOCAL_SDK_VERSION := current
-LOCAL_PACKAGE_NAME := Launcher3
+LOCAL_PACKAGE_NAME := LTM
 LOCAL_PRIVILEGED_MODULE := true
 #LOCAL_CERTIFICATE := shared
 
-LOCAL_OVERRIDES_PACKAGES := Home Launcher2
+LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3
 
 include $(BUILD_PACKAGE)
 
